@@ -6,7 +6,7 @@ def calculatePay():
     
     hours = input("Enter Hours:")
     rate = input("Enter rate of pay:")
-    print(hours*rate)
+    print(hours * rate)
 
 
 
