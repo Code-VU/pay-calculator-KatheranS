@@ -14,7 +14,3 @@ def test_payCalculator_prints_correct_result(capfd, monkeypatch):
     out, err = capfd.readouterr()
     expected = 'calculating pay\n{}\n'.format(rate * hours)
     assert out == expected
-
-hours = input("Enter Hours:")
-rate = input("Enter rate of pay:")
-print(hours*rate)
